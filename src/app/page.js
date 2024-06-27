@@ -1,9 +1,9 @@
 import Navbar from "./components/Navbar/Navbar.js";
-import productCard from "./components/productCard.js";
+import "./globals.css"
 export default function Home() {
   return (
-    <>
-    <Navbar/>
-    </>
+    <div className="main">
+      <Navbar/>
+    </div>
   );
 }
