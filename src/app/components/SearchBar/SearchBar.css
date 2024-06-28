@@ -33,9 +33,9 @@ input{
     width: 99%;
     border-radius: 1vw 0 0 1vw;
     border: none;
-    font-size: 1.5vw;
+    font-size: calc(1.3vw + 1.3vh);
     padding-left: 2%;
-}
+}Are
 
 input:focus{
     border: none;
