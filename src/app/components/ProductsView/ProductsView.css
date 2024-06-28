@@ -1,0 +1,22 @@
+.ProductsView {
+    height: 1000vh;
+    width: 75vw;
+    border: 2px solid black;
+    margin-left: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start; 
+  }
+  
+  .products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    height: 20vh;
+    width: 20vw;
+    border: 2px solid black;
+    box-sizing: border-box; 
+    margin: 2vh 3%;
+  }
+  

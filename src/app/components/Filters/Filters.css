@@ -1,0 +1,8 @@
+ .Filters{
+    height: 70vh;
+    width: 20vw;
+    border: 2px solid black;
+    margin: 1%;
+    position:sticky;
+    top: 5vh;
+ }
