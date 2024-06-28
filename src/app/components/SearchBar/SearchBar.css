@@ -1,0 +1,44 @@
+.SearchBar{
+    height: 6vh;
+    width: 40vw;
+    /* border:  2px solid black; */
+    display: flex;
+    margin: 1.5%;
+    margin-left: 30%;
+    box-sizing: border-box;
+}
+.SearchBox{
+    height: 100%;
+    width: 90%;
+    border:  2px solid rgb(255, 106, 106);
+    border-radius: 1vw 0 0 1vw;
+}
+.SearchBtn{
+    height: 100%;
+    width: 10%;
+    border:  2px solid rgb(75, 0, 0);
+    border-radius: 0 1vw 1vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4vw;
+}
+
+.SearchBtn:hover{
+    cursor: pointer;
+}
+
+input{
+    height: 90%;
+    width: 99%;
+    border-radius: 1vw 0 0 1vw;
+    border: none;
+    font-size: 1.5vw;
+    padding-left: 2%;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
